@@ -1,0 +1,11 @@
+const os = require('os')
+
+console.log(`Host name: ${os.hostname()}`)
+console.log(`OS type: ${os.type()}`)
+console.log(`Platform: ${os.platform()}`)
+console.log(`Version: ${os.release()}`)
+console.log(`Time of work: ${(os.uptime() / 60 / 60 ).toFixed(2)} hours`)
+console.log(`Processor arquitecture: ${os.arch()}`)
+console.log(`Processors' quantity: ${os.cpus().length}`)
+console.log(`Memory: ${(os.totalmem() / 1e9 ).toFixed(2)} Gb`)
+console.log(`Free memory left: ${(os.freemem() / 1e9 ).toFixed(2)} Gb`)
