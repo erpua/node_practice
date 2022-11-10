@@ -8,7 +8,7 @@ class My {
   }
 
   log(msg) {
-    console.log(`Log: ${msg}: ${this.name}`)
+    console.log(`Log: ${msg} => ${this.name}`)
   }
 
 }

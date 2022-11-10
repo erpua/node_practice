@@ -1,3 +1,6 @@
+//require is sync module
+//the second and other requires are form cash
+//import => async. The behaviors are different
 const {info, log} = require('./module')
 const My = require('./moduleClass')
 
