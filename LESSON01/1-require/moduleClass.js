@@ -13,4 +13,4 @@ class My {
 
 }
 
-module.exports =  My
+module.exports = My
