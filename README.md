@@ -1,5 +1,8 @@
 # node_practice
 
+---
+#LESSON_1
+
 -- in folder sorting => if we add some npm package that mathes with file package
  => the app is not gonna work
  - npx eslint --init
