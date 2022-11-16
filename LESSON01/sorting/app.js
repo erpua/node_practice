@@ -1,6 +1,6 @@
 import * as fs from 'fs/promises'
 import { isAccessible } from './utils/accessible.js'
-import { program } from './utls/commander.js'
+import program from './utils/commander.js'
 import { handleError } from './utils/handleerror.js'
 import SortFiles from './module/sort.js'
 

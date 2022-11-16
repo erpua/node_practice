@@ -1,4 +1,5 @@
 module.exports = {
+  parser: ' @babel/eslint-parser',
   env: {
     es2021: true,
     node: true,
@@ -12,6 +13,8 @@ module.exports = {
     sourceType: 'module'
   },
   rules: {
-    'comma-dangle': 'off'
+    'comma-dangle': 'off',
+    //'space-between-function-paren': 0
+    'space-between-function-paren': 'off'
   }
 }
